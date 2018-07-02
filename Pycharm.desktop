@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Pycharm
+Icon=python
+Exec=sh -c "$HOME/pycharm_autolicense.py"
+Categories=Application;
