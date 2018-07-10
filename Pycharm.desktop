@@ -1,7 +1,8 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 Type=Application
 Terminal=false
-Name=Pycharm
-Icon=python3
-Exec=sh -c "$HOME/pycharm_autolicense.py"
+Name=PyCharm
+Icon=pycharm
+Exec=sh -c "$HOME/pycharm_autolicense/pycharm_autolicense.py pycharm"
 Categories=Application;

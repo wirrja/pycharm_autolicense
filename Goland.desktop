@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=GoLand
+Icon=goland
+Exec=sh -c "$HOME/pycharm_autolicense/pycharm_autolicense.py goland"
+Categories=Application;
