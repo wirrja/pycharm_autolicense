@@ -4,5 +4,5 @@ Type=Application
 Terminal=false
 Name=WebStorm
 Icon=webstorm
-Exec=sh -c "$HOME/pycharm_autolicense/pycharm_autolicense.py goland"
+Exec=sh -c "$HOME/pycharm_autolicense/pycharm_autolicense.py webstorm"
 Categories=Application;
