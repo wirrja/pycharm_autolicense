@@ -2,7 +2,9 @@ $ sudo apt-get update
 
 $ sudo apt-get install python3-tk
 
-$ git clone  https://github.com/wirrja/pycharm_autolicense.git ~/
+$ cd ~
+
+$ git clone  https://github.com/wirrja/pycharm_autolicense.git
 
 $ cp ~/pycharm_autolicense/pycharm.svg ~/.icons
 
