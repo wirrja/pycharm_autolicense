@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os.path
+import os
 import sys
 import requests
 import subprocess
@@ -8,7 +8,7 @@ from tkinter import messagebox
 
 _API = "https://api.ideaserver.pro/v1/domain"
 _SERVER = requests.get(_API).json()
-_HOMEDIR = os.path.expanduser('~')
+_HOMEDIR = os.getenv('HOME')
 
 def get_url():
     url = _SERVER.get("domain")
